@@ -1,15 +1,17 @@
 body{
     background: burlywood;
+    margin: 0 35px 0 35px;
 }
 .imagel{
     position: relative;
     height: 200px;
-    margin: 0 100px 0 130px;
+    margin: 5px 100px 5px 125px;
 }
 
 .imagel:hover{
     border: 2px solid black;
     border-radius: 50px;
+    margin: 3px 98px 3px 123px
 }
 
 .image{
@@ -18,8 +20,14 @@ body{
     border: 2px solid;
     padding: 5px;
 }
-.left{float: left;}
-.right{float: right;}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
 
 .lname{
     position: relative;
@@ -34,7 +42,6 @@ body{
 }
 
 .menu a {
-    float: left;
     color: black;
     text-align: center;
     padding: 4px 35px;
@@ -58,5 +65,5 @@ h1{
 }
 
 p{
-    font-size: 17px;
+    font-size: 20px;
 }
