@@ -11,9 +11,17 @@
         <a class="now left" href="istorie.html">Istorie</a>
         <a class="left" href="organizare.html">Organizare</a>
         <a class="left" href="mostenire.html">Moștenire</a>
+        <span class="them"> Theme:</span>
+        <span class="col w" onclick="change('white')" ></span>
+        <span class="col s" onclick="change('sepia')"></span>
+        <span class="col b" onclick="change('black')"></span>
     </div>
-    <h2 style="position: relative; text-align: left">Începutul</h2>
 
+    <button class="top" onclick="top()" id="TopBtn" title="Go to top">Top</button>
+
+    <div class="corp">
+    <h2 onclick="slide(div1,s1)" style="position: relative; text-align: left">Începutul<span id="s1">ᐱ</span> </h2>
+    <div class="block" id="div1">
     <p><img class="image left" src="../image/temple_Mount.jpg" alt="Moscheea Al Aqsa">
         Templierii apar imediat după prima Cruciadă. În 1119, un nobil francez din regiunea Champagne, Hugues de Payens, împreună 8 cavaleri aleşi dintre rudele sale, a creat
         Ordinul Cavalerilor Templieri. Misiunea lor declarată era de a proteja pelerinii din Ţara Sfântă. Cu acordul regelui Baldvin al II-lea al Ierusalimului, şi-au înfiinţat
@@ -34,9 +42,10 @@
         In 1139, Papa Inocenţiu al II-lea a dat un ordin prin care Cavalerii Templieri deveneau şi mai puternici. Acest ordin permitea Cavalerilor Templieri să treacă liber
         graniţele, să fie excluşi de la plata taxelor, iar singura autoritate recunoscută rămânea doar Papa. Aceasta era o confirmare a puterii lor, care se pare ca a fost
         susţinută de patronul Ordinului, Bernard de Clairvaux, pentru că l-a ajutat pe Papa Inocenţiu să conducă biserica Catolică.
+    </div>
 
-    <h2 style="position: relative; text-align: left">Ascensiunea</h2>
-
+    <h2 onclick="slide(div2,s2)" style="position: relative; text-align: left">Ascensiunea<span id="s2">ᐱ</span></h2>
+    <div class="block" id="div2">
     <p>După ce Ierusalimul a fost cucerit în iulie 1099 ca urmare a primei cruciade, mulţi pelerini europeni s-au îndreptat spre locurile numite de ei Ţara Sfântă. Totuşi,
         deşi oraşul era relativ sub control, restul statelor cruciate nu erau. Bandiţii erau prezenţi în număr mare, şi mulţi pelerini erau măcelăriţi, uneori cu sutele, pe
         drumul de la Jaffa, situat pe coastă, în Ţara Sfântă.
@@ -74,9 +83,10 @@
         Orientul Mijlociu; cumpărau şi foloseau ferme şi podgorii; construiau biserici şi castele; erau implicaţi în manufactură, importuri şi exporturi; aveau propria lor flotă
         navală, şi, pentru un timp, deţineau întreaga insulă Cipru. Templierii au fost numiţi uneori ca prima corporaţie multinaţională, care deţinea aproape 1000 de
         comanderii (unităţi administrative locale cu reşedinţe pentru membri) şi fortificaţii în Europa.
+    </div>
 
-    <h2 style="position: relative; text-align: left">Declinul</h2>
-
+    <h2 onclick="slide(div3,s3)" style="position: relative; text-align: left">Declinul<span id="s3">ᐱ</span></h2>
+    <div class="block" id="div3">
     <p><img class="image right" src="../image/battle.jpg" alt="Bătălia de la Hattin, din 1187">
         La jumătatea secolului al XII-lea, cruciadele începuseră să-şi piardă puterea, deoarece nu întotdeauna îşi atingeau scopul reclamat. Lumea musulmană era mai unită sub
         lideri eficienţi precum Saladin, iar facţiunile creştine erau măcinate de lupte interne. Templierii s-au aflat uneori în conflict cu celelalte două mari ordine
@@ -98,9 +108,10 @@
         practic fiind un "stat în stat". Avea de asemenea o armată cu care putea străbate liber toate graniţele, însă nu mai avea un câmp de luptă clar, adică un adversar acceptabil
         şi pentru restul societăţii. Această situaţie a mărit tensiunile cu o parte a nobilimii europene, în contextul în care templierii se arătau interesaţi în fondarea unui propriu
         stat monastic (călugăresc), după cum făcuseră cavalerii teutoni (germanici) în Prusia după 1226.
+    </div>
 
-    <h2 style="position: relative; text-align: left">Arestările și dizolvarea</h2>
-
+    <h2 onclick="slide(div4,s4)" style="position: relative; text-align: left">Arestările și dizolvarea<span id="s4">ᐱ</span></h2>
+    <div class="block" id="div4">
     <p>În 1305, noul papă, Clement al V-lea, aflat în Franţa, a trimis scrisori Marelui Maestru templier Jacques de Molay şi celui ospitalier Fulk de Villaret pentru a discuta
         posibilitatea fuziunii celor două ordine. Niciunul nu agrea ideea, dar papa a insistat şi i-a invitat pe amândoi în Franţa pentru a discuta situaţia. De Molay a sosit
         primul la începutul lui 1307, dar de Villaret a întârziat câteva luni. În timp ce aşteptau, De Molay şi Clement au discutat acuzaţiile aduse cu doi ani înainte de un
@@ -141,8 +152,9 @@
 
     <p>În prezent, poziţia Bisericii Romano-Catolice este că persecuţia medievală a templierilor a fost nedreaptă; că nu era nimic rău legat de Ordin sau de membrii săi; şi că
         papa Clement a fost obligat să acţioneze de magnitudinea scandalului public şi de influenţa dominatoare a regelui Filip al IV-lea.
-
     </p>
+    </div>
+
     <table>
         <tr>
             <td>
@@ -167,6 +179,7 @@
         </tr>
     </table>
     <br>
-
+    </div>
+    <script src="../JS/java.js"></script>
 </body>
 </html>

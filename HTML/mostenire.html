@@ -11,8 +11,15 @@
         <a class="left" href="istorie.html">Istorie</a>
         <a class="left" href="organizare.html">Organizare</a>
         <a class="now left" href="mostenire.html">Moștenire</a>
+        <span class="them"> Theme:</span>
+        <span class="col w" onclick="change('white')" ></span>
+        <span class="col s" onclick="change('sepia')"></span>
+        <span class="col b" onclick="change('black')"></span>
     </div>
 
+    <button class="top" onclick="top()" id="TopBtn" title="Go to top">Top</button>
+
+<div class="corp">
     <p><img class="image right" src="../image/templeChurch.jpg" alt="Biserica Templului, din Londra">
         Datorită misiunii militare şi resurselor financiare extensive, Cavalerii templieri au iniţiat un mare număr de proiecte şi construcţii de-a lungul Europei şi Ţării Sfinte.
         Multe dintre aceste structuri încă stau în picioare. De asemenea, multe conţin numele de "Templu", datorită asocierii timp de secole cu templierii. De exemplu, unele
@@ -22,8 +29,8 @@
     <p>Elemente arhitecturale distinctive ale clădirilor templierilor includ folosirea imaginii a "doi cavaleri pe un singur cal", reprezentând sărăcia cavalerilor şi clădiri
         rotunde, menite a se asemăna cu Biserica Sfântului Mormânt din Ierusalim.
 
-    <h2 style="position: relative; text-align: left">Organizații moderne ale templierilor</h2>
-
+    <h2 onclick="slide(div1,s1)" style="position: relative; text-align: left">Organizații moderne ale templierilor<span id="s1">ᐱ</span></h2>
+    <div class="block" id="div1">
     <p>Prin decret papal, proprietatea templierilor a fost transferată Ordinului Ospitalierilor, care de asemenea a absorbit mulţi dintre membrii templieri. Practic, dizolvarea
         templierilor ar putea fi văzută drept unirea celor două ordine rivale. Un alt decret, Ad ea ex quibus, emis de papa Ioan al XXII-lea la 14 martie 1319, dar şi în
         urma rugăminţilor sau a negocierilor dintre suveranii aragonezi şi cei portughezi şi papalitate, le-a permis templierilor supravieţuitori să-şi găsească refugiu, dar şi
@@ -38,9 +45,10 @@
 
     <p>Deşi nu există o legătură istorică clară între Cavalerii Templieri, care au fost desfiinţaţi în anii 1300, şi oricare dintre aceste organizaţii, care au apărut abia în
         anii 1700, se creează adeseori o confuzie publică şi mulţi scapă din vedere diferenţa de 400 de ani.
+    </div>
 
-    <h2 style="position: relative; text-align: left">Legende și relicve</h2>
-
+    <h2 onclick="slide(div2,s2)" style="position: relative; text-align: left">Legende și relicve<span id="s2">ᐱ</span></h2>
+    <div class="block" id="div2">
     <p>Cavalerii Templieri au fost asociaţi cu legende privind secrete şi mistere transmise din timpuri străvechi. Zvonuri circulau chiar şi din timpul templierilor înşişi.
         Scriitorii francmasoni şi-au adăugat propriile speculaţii în secolul al 19-lea şi alte înfloriri fictive au fost adăugate în filme moderne, cum ar fi: Comoara naţională
         şi Regatul cerului, cărţi best-seller: Ivanhoe şi Codul lui Da Vinci, precum şi jocuri video: Hellgate: London şi Broken Sword: The Shadow of the Templars.
@@ -74,7 +82,7 @@
         retras în munţii Pirinei şi ordinul şi-ar avea sediul la Abaţia "Des Fontaines", lângă Andorra.
 
     </p>
-
+    </div>
     <table>
         <tr>
             <td>
@@ -99,6 +107,7 @@
         </tr>
     </table>
     <br>
-
+    <script src="../JS/java.js"></script>
+</div>
 </body>
 </html>

@@ -11,8 +11,17 @@
         <a class="left" href="istorie.html">Istorie</a>
         <a class="now left" href="organizare.html">Organizare</a>
         <a class="left" href="mostenire.html">Moștenire</a>
+        <span class="them"> Theme:</span>
+        <span class="col w" onclick="change('white')" ></span>
+        <span class="col s" onclick="change('sepia')"></span>
+        <span class="col b" onclick="change('black')"></span>
     </div>
 
+    <button class="top" onclick="top()" id="TopBtn" title="Go to top">Top</button>
+
+    <div class="corp">
+    <h2 onclick="slide(div1,s1)" style="position: relative; text-align: left">Organizarea<span id="s1">ᐱ</span></h2>
+    <div class="block" id="div1">
     <p>Templierii erau organizaţi drept un ordin monahal, similar cu Ordinul cistercian al lui Bernard de Clairvaux, care era considerat drept prima organizaţie internaţională
         eficace din Europa. Structura organizaţională avea un puternic lanţ al autorităţii. Fiecare ţară cu o prezenţă notabilă a templierilor (Franţa, Anglia, Aragon,
         Portugalia, Poitou, Apulia, Regatul Ierusalimului, Comitatul de Tripoli, Principatul de Antiohia, Anjou şi Ungaria) avea un Maestru al Ordinului Templierilor în
@@ -51,9 +60,10 @@
         încercau să se regrupeze cu un alt ordin creştin, cum ar fi cel al Ospitalierilor. Numai după ce toate steagurile ar fi căzut le era permis să părăsească câmpul de bătălie.
          Acest principiu necompromiţător, precum şi reputaţia lor pentru curaj, pregătirea lor excelentă şi armamentul greu, au făcut din templieri una dintre forţele de luptă cele
         mai de temut din timpurile medievale.
+    </div>
 
-    <h2 style="position: relative; text-align: left">Marii maeștri</h2>
-
+    <h2 onclick="slide(div2,s2)" style="position: relative; text-align: left">Marii maeștri<span id="s2">ᐱ</span></h2>
+    <div class="block" id="div2">
     <p><img class="image right" src="../image/armoiriessvg.png" alt="Sigiliul Marelui Maestru Bertrand de Blanchefort (1109–1169)">
         Începând cu fondatorul Hugues de Payens, din 1118-1119 cel mai mare grad în cadrul Ordinului a fost cel de Mare Maestru, o poziţie câştigată pe viaţă, deşi luând în
         considerare natura militară a Ordinului, aceasta putea fi o perioadă foarte scurtă. Numai doi Mari Maeştri au murit în timpul mandatului, iar câţiva au murit în timpul
@@ -67,6 +77,7 @@
         Franţei.
 
     </p>
+    </div>
 
     <table>
         <tr>
@@ -92,6 +103,7 @@
         </tr>
     </table>
     <br>
-
+    </div>
+    <script src="../JS/java.js"></script>
 </body>
 </html>
