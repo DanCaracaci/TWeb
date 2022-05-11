@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+body{
+    background: #3e4d42;
+}
+
+.banner-area{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.content-area{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(62 77 66);;
+
+}
+
+.content{
+    text-align: center;
+}
+
+.content h1{
+    font-size: 40px;
+    color:#fff;
+}
+
+.content .btn{
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #eee;
+    font-size: 15px;
+    cursor:pointer;
+    background: #222;
+    transition: all 0.2s ease-in-out;
+}
+
+.content .btn:hover, .main-section button:hover{
+transform: scale(1.1);
+}
+
+
+header{
+    text-align: center;
+}
+
+
+.content-area-contacts .contact_us{
+background-color: #8d8787;
+padding: 30px;
+}
+
+.content-area-contacts h1{
+font-family: calibri;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.content-area-contacts #submit{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    width: 80px;
+    background-color: #007FFF;
+    color: #fff;
+    font-family: calibri;
+}
+
+.content-area-contacts #name, #email, #password, #fname, #sname, #password2{
+    width: 250px;
+    margin-bottom: 8px;
+    height: 30px;
+}
+
+.content-area-contacts #message{
+    width: 250px;
+    height: 80px;
+}
+
+.form_container{
+    position: relative;
+}
+
+.content-area-contacts #name_error_message, #email_error_message, #fname_error_message, #sname_error_message, #password_error_message, #password_error_message2, #email_error_message2, #phone_error_message{
+font-family: calibri;
+font-size: 15px;
+margin-bottom: 5px;
+}
+
+#name_error_message{
+    position: absolute;
+    top: 33px;
+}
+
+#email_error_message{
+    position: absolute;
+    top: 100px;
+}
+
+#fname_error_message{
+    position: absolute;
+    top: 38px;
+}
+
+#sname_error_message{
+    position: absolute;
+    top: 105px;
+}
+
+#email_error_message2{
+    position: absolute;
+    top: 170px;
+}
+
+#password_error_message{
+    position: absolute;
+    top: 230px;
+}
+
+
+#password_error_message2{
+    position: absolute;
+    top: 297px;
+}
+
+
+.php_error{
+    font-family: calibri;
+    margin: 10px;
+    font-size: 15px;
+}
+#email_error{
+    position: absolute;
+    top: 33px;
+}
+#name_error{
+    position: absolute;
+    top: 33px;
+}
