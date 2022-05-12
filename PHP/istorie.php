@@ -7,21 +7,19 @@
 </head>
 <body>
 <div class="menu">
-    <a class="now left" href="index.php">Main</a>
-    <a class="left" href="/PHP/istorie.php">Istorie</a>
+    <a class="left" href="/index.php">Main</a>
+    <a class="now left" href="/PHP/istorie.php">Istorie</a>
     <a class="left" href="/PHP/organizare.php">Organizare</a>
     <a class="left" href="/PHP/mostenire.php">Moștenire</a>
-    <a class="left" href="PHP/sign_up.php">Sign Up</a></li>
-    <a class="left" href="PHP/contacts.php">Contacts</a></li>
-    <a class="left" href="PHP/sign_in.php">Sign in</a></li>
+    <a class="left" href="/PHP/contacts.php">Contacts</a>
     <span class="them"> Theme:</span>
     <span class="col w" onclick="change('white')" ></span>
     <span class="col s" onclick="change('sepia')"></span>
     <span class="col b" onclick="change('black')"></span>
 
 
-    <button class="knopka" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Login</button>
-    <button class="knopka" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Register</button>
+    <a class="left" href="/PHP/sign_in.php" style="width:auto;">Login</a>
+    <a class="left" href="/PHP/sign_up.php" style="width:auto;">Register</a>
 </div>
 
     <button class="top" onclick="top()" id="TopBtn" title="Go to top">Top</button>

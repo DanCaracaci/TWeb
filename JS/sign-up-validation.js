@@ -114,7 +114,7 @@ $(function(){
         check_retype_password();
 
         if (error_fname === false && error_sname === false && error_email === false && error_password === false && error_retype_password === false) {
-           alert("Inregistrare reusita");
+            $("#error_error_message").html("Succes");
            return true;
         } else {
            alert("Vă rugăm să completați corect formularul");

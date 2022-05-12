@@ -51,14 +51,7 @@ $(function(){
     
       checkname();
       checkemail();
-    
-      /*if(error_name === false && error_email === false){
-       alert("Trimis cu succes");
-          return true;
-      }else{
-        alert("Vă rugăm să completați corect formularul");
-          return false;
-      }*/
+
         if ( error_email === false && error_password === false) {
             $("#error_error_message").html("Succes");
             return true;

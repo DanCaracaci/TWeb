@@ -12,27 +12,24 @@ if(!isset($success)){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/CSS/style.css" rel="stylesheet"/>
     <link href="/CSS/styleforma.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Sign in</title>
 </head>
 <body>
     <header>
         <div class="menu">
-            <a class="now left" href="index.php">Main</a>
+            <a class="now left" href="/index.php">Main</a>
             <a class="left" href="/PHP/istorie.php">Istorie</a>
             <a class="left" href="/PHP/organizare.php">Organizare</a>
             <a class="left" href="/PHP/mostenire.php">Moștenire</a>
-            <a class="left" href="/PHP/sign_up.php">Sign Up</a></li>
-            <a class="left" href="/PHP/contacts.php">Contacts</a></li>
-            <a class="left" href="/PHP/sign_in.php">Sign in</a></li>
+            <a class="left" href="/PHP/contacts.php">Contacts</a>
             <span class="them"> Theme:</span>
             <span class="col w" onclick="change('white')" ></span>
             <span class="col s" onclick="change('sepia')"></span>
             <span class="col b" onclick="change('black')"></span>
 
 
-            <button class="knopka" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Login</button>
-            <button class="knopka" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Register</button>
+            <a class="now left" href="/PHP/sign_in.php" style="width:auto;">Login</a>
+            <a class="left" href="/PHP/sign_up.php" style="width:auto;">Register</a>
         </div>
     <br>
     <br>
@@ -40,7 +37,7 @@ if(!isset($success)){
 <div class="content-area content-area-contacts">
     <div class="contact_us"> 
     
-    <h1>Sign in</h1>
+    <h1>Login</h1>
 
     <p id="alert_error_message"></p>
 <div class="form_container">

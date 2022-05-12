@@ -4,6 +4,7 @@ $sname = $_POST['sname'];
 $email = $_POST['email'];
 $password = $_POST['password'];
 $password2 = $_POST['password2'];
+$success = "Success!";
 
 if(empty($fname)){
     $fname_error = 'Al prenumele nu este introdus';
