@@ -22,7 +22,7 @@
     <a class="left" href="/PHP/sign_up.php" style="width:auto;">Register</a>
 </div>
 
-    <button class="top" onclick="top()" id="TopBtn" title="Go to top">Top</button>
+    <button class="top" onclick="scrollToTop()" id="TopBtn" title="Go to top">Top</button>
 
 <div class="corp">
     <p><img class="image right" src="../image/templeChurch.jpg" alt="Biserica Templului, din Londra">

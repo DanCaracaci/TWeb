@@ -114,12 +114,12 @@ margin-bottom: 5px;
 
 #email_error_message2{
     position: absolute;
-    top: 170px;
+    top: 40px;
 }
 
 #password_error_message{
     position: absolute;
-    top: 230px;
+    top: 100px;
 }
 
 

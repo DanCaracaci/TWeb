@@ -68,7 +68,4 @@ window.onclick = function(event) {
     }
 }
 
-$(document).ready(function() {
-    $("#forma").validate();
-});
 
